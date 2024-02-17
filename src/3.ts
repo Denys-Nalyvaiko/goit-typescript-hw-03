@@ -12,6 +12,7 @@ interface ICharacter {
   level: number;
 
   introduce(phrase: string): void;
+
   levelUp(): void;
 }
 
@@ -48,4 +49,4 @@ wizard.introduce("I am the mighty wizard");
 wizard.castSpell();
 wizard.levelUp(); // Level up! New level is 16
 
-export { Wizard };
+export {};
